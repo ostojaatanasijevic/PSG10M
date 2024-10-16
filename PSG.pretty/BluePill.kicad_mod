@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "BluePill"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -980,7 +980,7 @@
 		(remove_unused_layers no)
 		(uuid "c0fd74bc-e1a0-42ca-8541-da14d850460d")
 	)
-	(model "${KIPRJMOD}/YAAJ_BluePill_PinHeaders_B_SWD_cp.step"
+	(model "${KIPRJMOD}/YAAJ_BluePill_PinHeaders_B_SWD_cp.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
