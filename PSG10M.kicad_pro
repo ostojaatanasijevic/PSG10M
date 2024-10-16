@@ -430,7 +430,9 @@
     "pinned_footprint_libs": [
       "PSG"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PSG"
+    ]
   },
   "meta": {
     "filename": "PSG10M.kicad_pro",
