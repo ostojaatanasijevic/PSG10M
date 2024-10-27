@@ -5943,7 +5943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16.5V"
 			(at 254 201.93 0)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-15V"
+		(property "Value" "-16.5V"
 			(at 254 227.33 0)
 			(effects
 				(font
@@ -10421,6 +10421,55 @@
 				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7"
 					(reference "#PWR015")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 78.74)
+		(size 27.94 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 1.0000)
+		)
+		(uuid "29213b6a-038f-4a10-a25c-7de2795cf67b")
+		(property "Sheetname" "PSU"
+			(at 17.78 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 17.78 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GAIN_SET_DAC" output
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+			(uuid "11e48cb5-982e-416c-90bc-d849831a2a8f")
+		)
+		(instances
+			(project "PSG10M"
+				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7"
+					(page "3")
 				)
 			)
 		)
