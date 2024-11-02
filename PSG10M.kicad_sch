@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 167.64 140.97) (xy 154.94 140.97)
+			(xy 167.64 152.4) (xy 129.54 152.4)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 113.03) (xy 165.1 113.03)
+			(xy 129.54 113.03) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,27 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 137.16) (xy 154.94 137.16)
+			(xy 157.48 161.29) (xy 129.54 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e01c94-a50c-41c3-8f19-9cc4f0a7751d")
+	)
+	(wire
+		(pts
+			(xy 152.4 124.46) (xy 152.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ff0527-7ce6-4429-9ed6-0f4a8df4ef1a")
+	)
+	(wire
+		(pts
+			(xy 172.72 148.59) (xy 129.54 148.59)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 106.68) (xy 170.18 137.16)
+			(xy 172.72 106.68) (xy 172.72 148.59)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 134.62) (xy 172.72 134.62)
+			(xy 129.54 146.05) (xy 175.26 146.05)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 110.49) (xy 167.64 140.97)
+			(xy 167.64 110.49) (xy 167.64 152.4)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 154.94 104.14)
+			(xy 175.26 104.14) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +97,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 167.64 110.49)
+			(xy 129.54 124.46) (xy 152.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703169da-4154-4140-bc92-3dfcd20c8d08")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 113.03) (xy 165.1 143.51)
+			(xy 165.1 113.03) (xy 165.1 154.94)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +127,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 146.05) (xy 154.94 146.05)
+			(xy 129.54 119.38) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4da920-90c3-44f2-81c3-6c820ff4e89b")
+	)
+	(wire
+		(pts
+			(xy 162.56 157.48) (xy 129.54 157.48)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 115.57) (xy 162.56 115.57)
+			(xy 129.54 115.57) (xy 162.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +157,27 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 134.62) (xy 172.72 104.14)
+			(xy 157.48 119.38) (xy 157.48 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e70c40d-a5e2-49f4-9526-be7ae6a5624e")
+	)
+	(wire
+		(pts
+			(xy 154.94 163.83) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4167620-a0f6-4123-9450-f8687dfba52c")
+	)
+	(wire
+		(pts
+			(xy 175.26 146.05) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +187,27 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 143.51) (xy 154.94 143.51)
+			(xy 129.54 163.83) (xy 154.94 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0ec86f-88b6-4755-8f4b-1fdca2c4a15b")
+	)
+	(wire
+		(pts
+			(xy 154.94 121.92) (xy 129.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ae2f6b-f1d1-4456-ae13-bf199908ef8f")
+	)
+	(wire
+		(pts
+			(xy 165.1 154.94) (xy 129.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +217,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 162.56 146.05)
+			(xy 129.54 166.37) (xy 152.4 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca222e8e-8cb4-4e8e-8da3-07e7fcbf3d09")
+	)
+	(wire
+		(pts
+			(xy 162.56 115.57) (xy 162.56 157.48)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +237,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 106.68) (xy 170.18 106.68)
+			(xy 129.54 106.68) (xy 172.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +316,7 @@
 		(uuid "df0e8aa1-05e7-492f-a00f-82770d43615d")
 	)
 	(sheet
-		(at 127 71.12)
+		(at 60.96 127)
 		(size 27.94 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -238,7 +328,7 @@
 		)
 		(uuid "29213b6a-038f-4a10-a25c-7de2795cf67b")
 		(property "Sheetname" "PSU"
-			(at 127 70.4084 0)
+			(at 60.96 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +337,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 127 94.5646 0)
+			(at 60.96 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,8 +354,8 @@
 		)
 	)
 	(sheet
-		(at 127 101.6)
-		(size 27.94 22.86)
+		(at 101.6 101.6)
+		(size 27.94 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -276,7 +366,7 @@
 		)
 		(uuid "6390d350-d68c-42b1-9810-a6bf9171f565")
 		(property "Sheetname" "MCU"
-			(at 127 100.8884 0)
+			(at 101.6 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +375,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 127 125.0446 0)
+			(at 101.6 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +384,7 @@
 			)
 		)
 		(pin "GAIN_SET_DAC" output
-			(at 154.94 110.49 0)
+			(at 129.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -304,7 +394,7 @@
 			(uuid "f5bb32fa-47e6-40c2-907d-563212a5fda2")
 		)
 		(pin "SQUARE_SEL" output
-			(at 154.94 104.14 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -314,7 +404,7 @@
 			(uuid "e9940547-6afb-4a1a-bca5-b135e1ce441d")
 		)
 		(pin "PWM_SEL" output
-			(at 154.94 106.68 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -324,7 +414,7 @@
 			(uuid "f5f392f1-1155-4ffb-a3b4-4b526e119b41")
 		)
 		(pin "DC_OFFSET_PWM" output
-			(at 154.94 115.57 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -334,7 +424,7 @@
 			(uuid "e2a4f2da-f633-4288-a834-de3be4b7bf57")
 		)
 		(pin "PWM_THRS_DAC" output
-			(at 154.94 113.03 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,6 +432,36 @@
 				(justify right)
 			)
 			(uuid "1bb4da04-df02-409a-80d6-4dd931b973f3")
+		)
+		(pin "SCK_SG" output
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b595dd63-259d-49ac-bb87-e826f23afefc")
+		)
+		(pin "SDATA_SG" output
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "95903f98-d251-4439-bb9f-1feda5e5e2a6")
+		)
+		(pin "FSYNC_SG" output
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "132bb2cc-afbd-4647-9188-189ccad2aef3")
 		)
 		(instances
 			(project "PSG10M"
@@ -352,8 +472,8 @@
 		)
 	)
 	(sheet
-		(at 127 132.08)
-		(size 27.94 22.86)
+		(at 101.6 143.51)
+		(size 27.94 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -364,7 +484,7 @@
 		)
 		(uuid "7290db3b-13a1-439f-bb11-a22c42d90abb")
 		(property "Sheetname" "AMP"
-			(at 127 131.3684 0)
+			(at 101.6 142.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +493,7 @@
 			)
 		)
 		(property "Sheetfile" "amp.kicad_sch"
-			(at 127 155.5246 0)
+			(at 101.6 177.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,7 +502,7 @@
 			)
 		)
 		(pin "PWM_SEL" input
-			(at 154.94 137.16 0)
+			(at 129.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +512,7 @@
 			(uuid "3de7dc84-7161-47d3-bd82-e26f26ef74b5")
 		)
 		(pin "PWM_THRS_DAC" input
-			(at 154.94 143.51 0)
+			(at 129.54 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,7 +522,7 @@
 			(uuid "a3d96253-1823-4ad6-9c1b-4df5af90142d")
 		)
 		(pin "GAIN_SET_DAC" input
-			(at 154.94 140.97 0)
+			(at 129.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,7 +532,7 @@
 			(uuid "94bd7edc-4b93-4076-bddf-dd6b6b3ede6a")
 		)
 		(pin "DC_OFFSET_PWM" input
-			(at 154.94 146.05 0)
+			(at 129.54 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +542,7 @@
 			(uuid "7021c540-f6d6-41bf-9e82-ecbae5c27356")
 		)
 		(pin "SQUARE_SEL" input
-			(at 154.94 134.62 0)
+			(at 129.54 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,6 +550,36 @@
 				(justify right)
 			)
 			(uuid "e9ec8f0e-3a7e-405d-b7a1-e5b9f3c5bccc")
+		)
+		(pin "SDATA_SG" input
+			(at 129.54 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6f132d5-3944-4e5f-a565-b03e2884d9db")
+		)
+		(pin "SCK_SG" input
+			(at 129.54 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44fe2eeb-ecd6-4858-89e3-ebbc415dd59e")
+		)
+		(pin "FSYNC_SG" input
+			(at 129.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a2a3601a-6da3-40f0-8506-8702b2193a2c")
 		)
 		(instances
 			(project "PSG10M"
