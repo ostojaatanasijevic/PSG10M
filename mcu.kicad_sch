@@ -6916,16 +6916,15 @@
 	(symbol
 		(lib_name "RotaryEncoder_Switch_1")
 		(lib_id "PSG:RotaryEncoder_Switch")
-		(at 125.73 116.84 0)
+		(at 137.16 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78cd2651-7a6e-4a3c-a871-a0d6d016435a")
 		(property "Reference" "SW2"
-			(at 125.73 106.68 0)
+			(at 136.906 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,15 +6932,16 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 125.73 109.22 0)
+			(at 137.16 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PSG:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 121.92 112.776 0)
+			(at 133.35 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 110.236 0)
+			(at 137.16 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6959,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 125.73 116.84 0)
+			(at 137.16 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,16 +8579,15 @@
 	)
 	(symbol
 		(lib_id "PSG:RotaryEncoder_Switch")
-		(at 43.18 116.84 0)
+		(at 53.34 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d8452e57-1771-41bc-b6c0-1072f87112ec")
 		(property "Reference" "SW1"
-			(at 43.18 106.68 0)
+			(at 53.086 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,15 +8595,16 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 43.18 109.22 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PSG:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
-			(at 39.37 112.776 0)
+			(at 49.53 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8613,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 110.236 0)
+			(at 53.34 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8622,7 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 43.18 116.84 0)
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
