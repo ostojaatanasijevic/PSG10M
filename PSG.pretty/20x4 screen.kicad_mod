@@ -92,7 +92,7 @@
 	)
 	(model "${KIPRJMOD}/LCD 20x4 Display.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 25)
 		)
 		(scale
 			(xyz 1 1 1)

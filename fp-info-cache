@@ -1,4 +1,4 @@
-8652680536756
+8652710778292
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68296,8 +68296,8 @@ RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx
 Bourns rotary encoder, PEC12R, with switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
 rotary encoder
 0
-7
-6
+0
+0
 PSG
 screen_to_i2c
 

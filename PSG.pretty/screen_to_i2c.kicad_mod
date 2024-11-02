@@ -92,7 +92,7 @@
 	)
 	(model "${KIPRJMOD}/I2C LCD Adapter PCF8574.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 45.5)
 		)
 		(scale
 			(xyz 1 1 1)
