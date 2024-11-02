@@ -1,0 +1,18 @@
+* Z:\home\ostoja\Elektronika\PSG10M\simulacije\701_capacitance_multiplier.asc
+R1 N003 vcc_in 1k
+C1 N003 0 47µ
+V1 N005 N006 PULSE(-1 1 0 10u 10u 1n 20u)
+V2 N006 0 20
+I1 N001 0 30m
+V3 vcc_in N005 PULSE(-1 1 0 {t2} {t2} 1n {2*t2})
+R2 N003 0 10k
+B1 vee_in 0 V=-V(vcc_in)
+R3 N002 N004 1k
+R322 N004 0 3.3k
+V4 N002 0 9
+XU2 vcc_in N003 N001 bd679
+.tran 1000m
+.param t2 = 0.5u
+.lib BD679.SP3
+.backanno
+.end
