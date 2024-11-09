@@ -7733,7 +7733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PSG:20x4 screen"
+		(property "Footprint" "PSG:2x16_vertical"
 			(at 264.668 125.984 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-8652710778292
+10383724446932
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68270,6 +68270,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PSG
+2x16_vertical
+
+
+0
+0
+0
 PSG
 20x4 screen
 

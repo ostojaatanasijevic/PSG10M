@@ -16764,7 +16764,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/7290db3b-13a1-439f-bb11-a22c42d90abb/ef653c99-4df4-4cec-a2aa-5e5802660e2e")
+		(path "/7290db3b-13a1-439f-bb11-a22c42d90abb/b6377c5b-4b7c-482c-ae6f-c14c06729007")
 		(sheetname "AMP")
 		(sheetfile "amp.kicad_sch")
 		(attr smd)
@@ -37010,7 +37010,7 @@
 			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "dbf73c8c-b877-40f4-b8a2-1f463d95a559")
+			(uuid "2975890d-95d7-4280-b2da-75c9f9024225")
 			(effects
 				(font
 					(size 1 1)
@@ -37022,7 +37022,7 @@
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "15ddbd89-9c20-4748-b409-09b103c1479e")
+			(uuid "1bd564d8-916c-4568-9065-7c36997f41c5")
 			(effects
 				(font
 					(size 1 1)
@@ -37035,7 +37035,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "530e2afc-edd2-4904-9941-f9dcdf9bce56")
+			(uuid "f0f22ecd-0aca-4239-9603-7a25783eb06c")
 			(effects
 				(font
 					(size 1 1)
@@ -37048,7 +37048,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5433465-8c6a-416b-b225-9a88c2effc12")
+			(uuid "0fef944a-9001-40b4-b9cf-ad82997f827f")
 			(effects
 				(font
 					(size 1 1)
@@ -37061,7 +37061,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b5b1a00-8511-402a-891d-88f89b4c3d66")
+			(uuid "9b896bdb-faa6-438f-a67a-2029cda21266")
 			(effects
 				(font
 					(size 1 1)
@@ -37082,13 +37082,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "9184647a-e37c-4502-b9ec-782233f29a57")
+			(uuid "4352a707-a685-4d0b-acfa-d2822bf00e80")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "307fe56f-e03f-46da-8419-6897d7052883")
+			(uuid "7983b2e4-adcc-4098-9b3a-3e282da06011")
 			(effects
 				(font
 					(size 1 1)
@@ -43005,15 +43005,15 @@
 			)
 		)
 	)
-	(footprint "PSG:20x4 screen"
+	(footprint "PSG:2x16_vertical"
 		(layer "F.Cu")
 		(uuid "dfe2d518-106e-47a3-8447-bd663d7f0a78")
-		(at 171.55 132.45 90)
+		(at 172.2125 128.1 -90)
 		(property "Reference" "U17"
-			(at 0 -0.5 90)
+			(at 0 -0.5 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "d8a9e823-0a08-4dd2-b4b1-de7910220664")
+			(uuid "ad9ce270-5f63-4bd7-9195-b82ceb6e7057")
 			(effects
 				(font
 					(size 1 1)
@@ -43022,10 +43022,10 @@
 			)
 		)
 		(property "Value" "Screen"
-			(at 0 1 90)
+			(at 0 1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "67842ae2-5a90-4280-b896-1ede89dfa1a8")
+			(uuid "6955647c-12c7-4bb4-8d67-e16df9399199")
 			(effects
 				(font
 					(size 1 1)
@@ -43033,12 +43033,12 @@
 				)
 			)
 		)
-		(property "Footprint" "PSG:20x4 screen"
-			(at 0 0 90)
+		(property "Footprint" "PSG:2x16_vertical"
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e87d0a80-021b-4856-99f6-503307ea659e")
+			(uuid "94943886-e2e3-4064-98be-ff2876e22d6c")
 			(effects
 				(font
 					(size 1 1)
@@ -43047,11 +43047,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f38d12c2-097d-46e0-9ec5-9fdae44d3541")
+			(uuid "4810bc2e-ce11-4346-9099-521d7ef34fa5")
 			(effects
 				(font
 					(size 1 1)
@@ -43060,11 +43060,11 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fee2f224-bc9f-4096-a5f3-6b4542418615")
+			(uuid "9509527d-a79e-492c-8ae4-68b8b725c757")
 			(effects
 				(font
 					(size 1 1)
@@ -43077,21 +43077,21 @@
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_rect
-			(start -41.95 -5.4)
-			(end 43.1 7.1)
+			(start -20 -3)
+			(end 20 0)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "ba604f9e-0d2b-4d8e-9980-59326cef0d06")
+			(uuid "6fd8d9bf-7a7a-4bc5-b370-d919a786cb69")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 0 2.5 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "02dd52f4-8caa-48fb-9998-b97dd6da30a2")
+			(uuid "d89fb2c6-6abb-4410-8f62-fc720acf91ac")
 			(effects
 				(font
 					(size 1 1)
@@ -43099,15 +43099,15 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/LCD 20x4 Display.step"
+		(model "${KIPRJMOD}/LCD 16X2.STEP"
 			(offset
-				(xyz 0 0 25)
+				(xyz -15.5 0 64.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 0 180)
 			)
 		)
 	)
@@ -45291,7 +45291,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/7290db3b-13a1-439f-bb11-a22c42d90abb/f6c8d485-d76b-419b-a49a-9967217eb068")
+		(path "/7290db3b-13a1-439f-bb11-a22c42d90abb/575cf444-781e-4d0e-a79e-8bcf1ff1455b")
 		(sheetname "AMP")
 		(sheetfile "amp.kicad_sch")
 		(attr smd)
