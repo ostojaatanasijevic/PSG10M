@@ -7135,6 +7135,16 @@
 		)
 		(uuid "1587f166-025b-4b36-81d1-ee5c66e9d618")
 	)
+	(text "MORA DA IZDRŽI NEKOLIKO WATI"
+		(exclude_from_sim no)
+		(at 367.538 180.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a87136f-61e1-4bd9-ae05-42ec3ce668ce")
+	)
 	(text "MOVE to -3.3V to 3.3V space"
 		(exclude_from_sim no)
 		(at 266.192 172.212 0)
