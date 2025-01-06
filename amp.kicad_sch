@@ -7051,6 +7051,27 @@
 		)
 		(uuid "705557cf-e15e-488d-8fa1-67107cb6d613")
 	)
+	(text_box "Large input current, resistance needs to be low\n"
+		(exclude_from_sim no)
+		(at 207.01 34.925 0)
+		(size 20.955 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 63 170 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "936f453f-e125-4e19-9a3d-36fac08f5418")
+	)
 	(text_box "3x gain,\nmapping for 20 Vpp"
 		(exclude_from_sim no)
 		(at 308.61 158.75 0)
@@ -10243,7 +10264,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100"
 			(at 184.15 72.3899 0)
 			(effects
 				(font
@@ -19529,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100"
 			(at 187.96 60.96 90)
 			(effects
 				(font
@@ -20360,7 +20381,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "330"
 			(at 199.39 60.96 90)
 			(effects
 				(font
