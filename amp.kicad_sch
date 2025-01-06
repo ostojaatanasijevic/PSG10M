@@ -7983,6 +7983,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0934eef0-d80a-49ba-afd9-2e6e9cd85c99")
+		(property "Reference" "#PWR043"
+			(at 266.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15.3V"
+			(at 266.7 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 266.7 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d150331f-58fe-4286-8a81-96e3cd5db3b9")
+		)
+		(instances
+			(project "PSG10M"
+				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 232.41 196.85 180)
 		(unit 1)
@@ -8001,7 +8066,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "200"
 			(at 234.95 198.1199 0)
 			(effects
 				(font
@@ -8138,7 +8203,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 283.21 210.8199 0)
 			(effects
 				(font
@@ -8250,72 +8315,6 @@
 			(project "PSG10M"
 				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 334.01 200.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10dfce16-f2db-49c7-bfb4-05eebd72501e")
-		(property "Reference" "#PWR044"
-			(at 334.01 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-16.5V"
-			(at 334.01 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 334.01 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae26b9cf-a6c8-4496-b294-17cf959b7627")
-		)
-		(instances
-			(project "PSG10M"
-				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9252,7 +9251,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "200"
 			(at 294.64 200.66 90)
 			(effects
 				(font
@@ -9908,72 +9907,6 @@
 			(project "PSG10M"
 				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 266.7 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27c23c5d-46e8-46e1-bc94-81dd0a9d14a8")
-		(property "Reference" "#PWR029"
-			(at 266.7 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+16.5V"
-			(at 266.7 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 266.7 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "224be42d-fe07-4eb4-a229-f387895b2b2e")
-		)
-		(instances
-			(project "PSG10M"
-				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14325,6 +14258,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 266.7 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766c54cc-1afd-4d46-b3a8-e620d14c033a")
+		(property "Reference" "#PWR044"
+			(at 266.7 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15.3V"
+			(at 266.7 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 266.7 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96f62af9-3f25-4f5f-b712-96db5e798f8d")
+		)
+		(instances
+			(project "PSG10M"
+				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PSG:LM393LVDDFR")
 		(at 217.17 109.22 0)
 		(unit 2)
@@ -15974,6 +15972,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 334.01 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9036f304-a479-426a-b730-e1ee40748a49")
+		(property "Reference" "#PWR0193"
+			(at 334.01 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15.3V"
+			(at 334.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 334.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e9b956b-3b53-495c-b2f5-e3399f5e4110")
+		)
+		(instances
+			(project "PSG10M"
+				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 355.6 49.53 180)
 		(unit 1)
@@ -16380,6 +16443,71 @@
 			(project "PSG10M"
 				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 334.01 200.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a041441d-83cc-4313-a61a-116570499ea2")
+		(property "Reference" "#PWR0194"
+			(at 334.01 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15.3V"
+			(at 334.01 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 334.01 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c98cab1b-387a-43c0-a158-92762851ee42")
+		)
+		(instances
+			(project "PSG10M"
+				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -16810,7 +16938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 326.39 220.9799 0)
 			(effects
 				(font
@@ -17146,7 +17274,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "100"
 			(at 361.95 189.23 90)
 			(effects
 				(font
@@ -17967,7 +18095,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 218.44 184.15 90)
 			(effects
 				(font
@@ -19350,7 +19478,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "200"
 			(at 341.63 208.28 90)
 			(effects
 				(font
@@ -20313,7 +20441,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "100"
 			(at 361.95 203.2 90)
 			(effects
 				(font
@@ -20496,72 +20624,6 @@
 			(project "PSG10M"
 				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 334.01 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e51af688-c0d1-4ea2-a34a-17b979c3d485")
-		(property "Reference" "#PWR043"
-			(at 334.01 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+16.5V"
-			(at 334.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 334.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3de4f9e-1a8c-4418-b35b-766195d349c7")
-		)
-		(instances
-			(project "PSG10M"
-				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -21107,72 +21169,6 @@
 				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 266.7 227.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9cfefff-8147-461f-9d3a-e7744a54603b")
-		(property "Reference" "#PWR030"
-			(at 266.7 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-16.5V"
-			(at 266.7 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 266.7 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6656f61-6e1f-40cd-a902-272dbeddbaac")
-		)
-		(instances
-			(project "PSG10M"
-				(path "/60b34cbc-2eaa-4dea-9ec7-288b3cc4f4a7/7290db3b-13a1-439f-bb11-a22c42d90abb"
-					(reference "#PWR030")
-					(unit 1)
 				)
 			)
 		)
